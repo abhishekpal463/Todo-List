@@ -6,7 +6,6 @@ const itemSchema = new mongoose.Schema({
 
 const Item = mongoose.model("Item", itemSchema);
 
-
 const listSchema = {
   name: String,
   items: [itemSchema]

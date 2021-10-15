@@ -1,5 +1,3 @@
-const express = require("express");
-const mongoose = require("mongoose");
 const _=require("lodash");
 const {Item,List} = require("../models/items");
 

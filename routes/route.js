@@ -13,6 +13,4 @@ Router.post("/delete",deleteList);
 Router.post("/",addList);
 Router.get("/",showList);
 
-
-
 module.exports = Router; 
